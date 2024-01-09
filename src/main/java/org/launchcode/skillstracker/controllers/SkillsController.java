@@ -53,7 +53,7 @@ public class SkillsController {
     @ResponseBody
     public String submission(@RequestParam String name, @RequestParam String first, @RequestParam String second,
     @RequestParam String third){
-        return "<h1>Hello! My name is " + name +".</h1>" +
+        return "<h1>Hello! My name: " + name +".</h1>" +
                 "<ol>" +
                 "<li>My favorite language is: "+ first + "</li>" +
                 "<li>My second favorite language is: " + second +"</li>" +
